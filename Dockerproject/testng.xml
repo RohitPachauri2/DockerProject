@@ -1,0 +1,11 @@
+<suite name="suite1">
+
+<test name="dockerpractice">
+<classes>
+<class name="StepDefinition.windowspracticeagain"></class>
+</classes>
+
+
+</test>
+
+</suite>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-20T09:02:26 IST" name="suite1" finished-at="2026-06-20T09:02:43 IST" duration-ms="16935">
+    <groups>
+    </groups>
+    <test started-at="2026-06-20T09:02:26 IST" name="dockerpractice" finished-at="2026-06-20T09:02:43 IST" duration-ms="16935">
+      <class name="StepDefinition.windowspracticeagain">
+        <test-method is-config="true" signature="before()[pri:0, instance:StepDefinition.windowspracticeagain@24aed80c]" started-at="2026-06-20T09:02:26 IST" name="before" finished-at="2026-06-20T09:02:33 IST" duration-ms="7397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="method1()[pri:1, instance:StepDefinition.windowspracticeagain@24aed80c]" started-at="2026-06-20T09:02:34 IST" name="method1" finished-at="2026-06-20T09:02:38 IST" duration-ms="4184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method signature="method2()[pri:2, instance:StepDefinition.windowspracticeagain@24aed80c]" started-at="2026-06-20T09:02:38 IST" name="method2" finished-at="2026-06-20T09:02:43 IST" duration-ms="5068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method is-config="true" signature="after()[pri:0, instance:StepDefinition.windowspracticeagain@24aed80c]" started-at="2026-06-20T09:02:43 IST" name="after" finished-at="2026-06-20T09:02:43 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- StepDefinition.windowspracticeagain -->
+    </test> <!-- dockerpractice -->
+  </suite> <!-- suite1 -->
+</testng-results>
