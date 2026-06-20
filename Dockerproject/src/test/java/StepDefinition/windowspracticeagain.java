@@ -1,6 +1,7 @@
 package StepDefinition;
 
 import java.time.Duration;
+import org.openqa.selenium.chrome.ChromeOptions;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -27,7 +28,15 @@ public class windowspracticeagain {
 	@BeforeTest
 	public void before() {
 		WebDriverManager.chromedriver().setup();
-		driver=new ChromeDriver();
+
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--headless=new");
+		options.addArguments("--no-sandbox");
+		options.addArguments("--disable-dev-shm-usage");
+		options.addArguments("--disable-gpu");
+		options.addArguments("--remote-allow-origins=*");
+
+		driver = new ChromeDriver(options);
 		action=new Actions(driver);
 		wait=new WebDriverWait(driver, Duration.ofSeconds(10));
 		driver.get("https://www.hyrtutorials.com/p/window-handles-practice.html");
